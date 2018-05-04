@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Movie World</title>
+    <meta charset="utf-8">
+    <meta name="author" content="pixelhint.com">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script>
+        function changedisplay() {
+            document.getElementById("trainer").style.height = "500px";
+        }
+        function shuttrainer() {
+            document.getElementById("trainer").style.height = "0px";
+        }
+        window.onload = function () {
+            document.getElementById("media1").style.height = "500px";
+            document.getElementById("media2").style.height = "500px";
+            document.getElementById("media3").style.height = "500px";
+            document.getElementById("media4").style.height = "500px";
+            document.getElementById("media5").style.height = "500px";
+            document.getElementById("media6").style.height = "500px";
+        }
+    </script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html" style="text-decoration:none; font-size:35px;">Movie World</a>
+        </div><!-- end logo -->
+
+        <div id="menu_icon"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="selected" style="color:red; font-weight:bold">Home</a></li>
+                
+                <li><a href="action.html" style="font-weight:bold;">Action</a></li>
+                <li><a href="SF.html" style="font-weight:bold">SF</a></li>
+                <li><a href="Fantasy.html" style="font-weight:bold;  color:blue">Fantasy</a></li>
+                <li><a href="Horror.html" style="font-weight:bold">Horror</a></li>
+                <li><a href="Thriller.html" style="font-weight:bold">Thriller</a></li>
+                <li><a href="Animation.html" style="font-weight:bold">Animation</a></li>
+ 
+            </ul>
+        
+        <br />
+        </nav><!-- end navigation menu -->
+
+        <div class="footer clearfix">
+
+
+            <div class="rights">
+                <a href="#" onclick="shuttrainer()">예고편 닫기</a>
+                <br />
+                <br />
+                <p>포스터를 클릭하면 예고편이 재생됩니다.</p>
+            <br />
+            <br />
+            <br />
+            <br />
+                <p>Copyright © 2016 KHJ</p>
+            </div><!-- end rights -->
+        </div><!-- end footer -->
+    </header><!-- end header -->
+
+    <section class="main clearfix">
+
+        
+        <div class="work">
+            <a href="https://www.youtube.com/embed/mObK5XD8udk" target="trainer" onclick="changedisplay()">
+                <img src="img\해리포터.jpg" class="media" alt="" id="media1"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>해리포터와 죽음의 성물</h1>
+                        <br />개봉일 : 2011년 7월 13일<br />
+                        <br />국가 : 영국, 미국<br />
+                        <br />등급 :  전체 관람가<br />
+                        <br />감독 :  데이빗 예이츠<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="work">
+            <a href="https://www.youtube.com/embed/lWKj41HZBzM" target="trainer" onclick="changedisplay()">
+                <img src="img/나니아연대기.jpg" class="media" alt="" id="media2"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>나니아 연대기</h1>
+                        <br />개봉일 : 2010년 12월 8일<br />
+                        <br />국가 : 미국<br />
+                        <br />등급 :  전체 관람가<br />
+                        <br />감독 :  마이클 앱티드<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="work">
+            <a href="https://www.youtube.com/embed/i_WNdO0EsdE" target="trainer" onclick="changedisplay()">
+                <img src="img/크림슨 피크.jpg" class="media" alt=""  id="media3"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1 id="batman">크림슨 피크</h1>
+                        <br />개봉일 : 2015년 11월 25일<br />
+                        <br />국가 : 미국<br />
+                        <br />등급 :  청소년 관람불가<br />
+                        <br />감독 :  길예르모 델 토로<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="trainer">
+            <iframe src="" name="trainer" id="trainer"></iframe>
+        </div>
+        <div class="work">
+            <a href="https://www.youtube.com/embed/T6fcZWmto9w"  target="trainer" onclick="changedisplay()">
+                <img src="img\스노우.jpg" class="media" alt=""  id="media4"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>헌츠맨 : 윈터스 워</h1>
+                        <br />개봉일 : 2016년 4월 13일<br />
+                        <br />국가 : 미국<br />
+                        <br />등급 :  12세 관람가<br />
+                        <br />감독 :  세딕 니콜라스 트로얀<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="work">
+            <a href="https://www.youtube.com/embed/WdwpWhDjIps"  target="trainer" onclick="changedisplay()">
+                <img src="img/자이언트.jpg" class="media" alt="" id="media5"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>잭 더 자이언트 킬러</h1>
+                        <br />개봉일 : 2013년 2월 28일<br />
+                        <br />국가 : 미국<br />
+                        <br />등급 :  12세 관람가<br />
+                        <br />감독 :  브라이언 싱어<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="work">
+            <a href="https://www.youtube.com/embed/KR_9A-cUEJc"  target="trainer" onclick="changedisplay()">
+                <img src="img/캐리비안.jpg" class="media" alt="" id="media6" />
+                <div class="caption">
+                    <div class="work_title">
+                        <h1 id="batman">캐리비안의 해적 : 낯선 조류</h1>
+                        <br />개봉일 : 2011년 5월 19일<br />
+                        <br />국가 : 미국<br />
+                        <br />등급 :  12세 관람가<br />
+                        <br />감독 :  롭 마샬<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+       
+    </section><!-- end main -->
+
+</body>
+</html>

@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Movie World</title>
+    <meta charset="utf-8">
+    <meta name="author" content="pixelhint.com">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script>
+        function changedisplay() {
+            document.getElementById("trainer").style.height = "500px";
+        }
+        function shuttrainer() {
+            document.getElementById("trainer").style.height = "0px";
+        }
+        window.onload = function () {
+            document.getElementById("media1").style.height = "500px";
+            document.getElementById("media2").style.height = "500px";
+            document.getElementById("media3").style.height = "500px";
+            document.getElementById("media4").style.height = "500px";
+            document.getElementById("media5").style.height = "500px";
+            document.getElementById("media6").style.height = "500px";
+        }
+    </script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html" style="text-decoration:none; font-size:35px;">Movie World</a>
+        </div><!-- end logo -->
+
+        <div id="menu_icon"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="selected" style="color:red; font-weight:bold">Home</a></li>
+                <li><a href="inner.html" style="color:red; font-weight:bold">About</a></li>
+                <li><a href="action.html" style="font-weight:bold; ">Action</a></li>
+                <li><a href="SF.html" style="font-weight:bold">SF</a></li>
+                <li><a href="Fantasy.html" style="font-weight:bold">Fantasy</a></li>
+                <li><a href="Horror.html" style="font-weight:bold">Horror</a></li>
+                <li><a href="Thriller.html" style="font-weight:bold;">Thriller</a></li>
+                <li><a href="Animation.html" style="font-weight:bold; color:blue">Animation</a></li>
+                <li><a href="Comedy.html" style="font-weight:bold">Comedy</a></li>
+            </ul>
+        
+        <br />
+        </nav><!-- end navigation menu -->
+
+        <div class="footer clearfix">
+
+
+            <div class="rights">
+                <a href="#" onclick="shuttrainer()">예고편 닫기</a>
+                <br />
+                <br />
+                <p>포스터를 클릭하면 예고편이 재생됩니다.</p>
+            <br />
+            <br />
+            <br />
+            <br />
+                <p>Copyright © 2016 KHJ</p>
+            </div><!-- end rights -->
+        </div><!-- end footer -->
+    </header><!-- end header -->
+
+    <section class="main clearfix">
+
+        
+        <div class="work">
+            <a href="https://www.youtube.com/embed/TOKiBjey2vE"  target="trainer" onclick="changedisplay()">
+                <img src="img\겨울왕국.jpg" class="media" alt="" id="media1"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>겨울왕국</h1>
+                        <br />개봉일 : 2014년 1월 16일<br />
+                        <br />국가 : 미국<br />
+                        <br />등급 : 전체 관람가<br />
+                        <br />감독 : 크리스 벅, 제니퍼 리<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="work">
+            <a href="https://www.youtube.com/embed/hkta4xYaj1k" target="trainer" onclick="changedisplay()">
+                <img src="img/월e.jpg" class="media" alt="" id="media2"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>월E</h1>
+                        <br />개봉일 : 2008년 8월 6일<br />
+                        <br />국가 : alrnr<br />
+                        <br />등급 : 전체 관람가<br />
+                        <br />감독 : 앤드류 스탠튼<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="work">
+            <a href="https://www.youtube.com/embed/PhN0kwcxX-A"  target="trainer" onclick="changedisplay()">
+                <img src="img/인사이드아웃.jpg" class="media" alt=""  id="media3"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>인사이드 아웃</h1>
+                        <br />개봉일 : 2015년 7월 9일<br />
+                        <br />국가 : 미국<br />
+                        <br />등급 : 전체 관람가<br />
+                        <br />감독 : 피트 닥터<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="trainer">
+            <iframe src="" name="trainer" id="trainer"></iframe>
+        </div>
+        <div class="work">
+            <a href="https://www.youtube.com/embed/rxCjtgWkc7k"   target="trainer" onclick="changedisplay()">
+                <img src="img\주토피아.jpg" class="media" alt=""  id="media4"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>주토피아</h1>
+                        <br />개봉일 : 2016년 2월 17일<br />
+                        <br />국가 : 미국<br />
+                        <br />등급 : 전체 관람가<br />
+                        <br />감독 : 바이론 하우드, 리치 무어<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="work">
+            <a href="https://www.youtube.com/embed/3tTVHuSYaJM"  target="trainer" onclick="changedisplay()">
+                <img src="img/앵그리버드.jpg" class="media" alt="" id="media5"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>앵그리버드 더무비</h1>
+                        <br />개봉일 : 2016년 5월 19일<br />
+                        <br />국가 : 핀란드, 미국<br />
+                        <br />등급 : 전체 관람가<br />
+                        <br />감독 : 클레이 케이티스, 퍼갈 레일리<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="work">
+            <a href="https://www.youtube.com/embed/oQo62zqNnlM"  target="trainer" onclick="changedisplay()">
+                <img src="img/쿵푸팬더.jpg" class="media" alt="" id="media6" />
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>쿵푸팬더3</h1>
+                        <br />개봉일 : 2016년 1월 28일<br />
+                        <br />국가 : 미국, 중국<br />
+                        <br />등급 : 전체 관람가<br />
+                        <br />감독 : 여인영, 알레산드로 칼로니<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+       
+    </section><!-- end main -->
+
+</body>
+</html>

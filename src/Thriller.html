@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Movie World</title>
+    <meta charset="utf-8">
+    <meta name="author" content="pixelhint.com">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script>
+        function changedisplay() {
+            document.getElementById("trainer").style.height = "500px";
+        }
+        function shuttrainer() {
+            document.getElementById("trainer").style.height = "0px";
+        }
+        window.onload = function () {
+            document.getElementById("media1").style.height = "500px";
+            document.getElementById("media2").style.height = "500px";
+            document.getElementById("media3").style.height = "500px";
+            document.getElementById("media4").style.height = "500px";
+            document.getElementById("media5").style.height = "500px";
+            document.getElementById("media6").style.height = "500px";
+        }
+    </script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html" style="text-decoration:none; font-size:35px;">Movie World</a>
+        </div><!-- end logo -->
+
+        <div id="menu_icon"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="selected" style="color:red; font-weight:bold">Home</a></li>
+                
+                <li><a href="action.html" style="font-weight:bold; ">Action</a></li>
+                <li><a href="SF.html" style="font-weight:bold">SF</a></li>
+                <li><a href="Fantasy.html" style="font-weight:bold">Fantasy</a></li>
+                <li><a href="Horror.html" style="font-weight:bold">Horror</a></li>
+                <li><a href="Thriller.html" style="font-weight:bold; color:blue">Thriller</a></li>
+                <li><a href="Animation.html" style="font-weight:bold">Animation</a></li>
+               
+            </ul>
+        
+        <br />
+        </nav><!-- end navigation menu -->
+
+        <div class="footer clearfix">
+
+
+            <div class="rights">
+                <a href="#" onclick="shuttrainer()">예고편 닫기</a>
+                <br />
+                <br />
+                <p>포스터를 클릭하면 예고편이 재생됩니다.</p>
+            <br />
+            <br />
+            <br />
+            <br />
+                <p>Copyright © 2016 KHJ</p>
+            </div><!-- end rights -->
+        </div><!-- end footer -->
+    </header><!-- end header -->
+
+    <section class="main clearfix">
+
+        
+        <div class="work">
+            <a href="https://www.youtube.com/embed/ga8aOMcHRL0"  target="trainer" onclick="changedisplay()">
+                <img src="img\살인의추억.jpg" class="media" alt="" id="media1"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>살인의추억</h1>
+                        <br />개봉일 : 2003년 4월 25일<br />
+                        <br />국가 : 한국<br />
+                        <br />등급 : 15세 관람가<br />
+                        <br />감독 : 봉준호<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="work">
+            <a href="https://www.youtube.com/embed/8khl_u3C56c" target="trainer" onclick="changedisplay()">
+                <img src="img/그놈목소리.jpg" class="media" alt="" id="media2"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>그놈 목소리</h1>
+                        <br />개봉일 : 2007년 2월 1일<br />
+                        <br />국가 : 한국<br />
+                        <br />등급 : 12세 관람가<br />
+                        <br />감독 : 박진표<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="work">
+            <a href="https://www.youtube.com/embed/Yq8zVOW8nvo" target="trainer" onclick="changedisplay()">
+                <img src="img/클로버필드.jpg" class="media" alt=""  id="media3"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>클로버필드 10번지</h1>
+                        <br />개봉일 : 2016년 4월 7일<br />
+                        <br />국가 : 미국<br />
+                        <br />등급 : 15세 관람가<br />
+                        <br />감독 : 댄 트라첸버그<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="trainer">
+            <iframe src="" name="trainer" id="trainer"></iframe>
+        </div>
+        <div class="work">
+            <a href="https://www.youtube.com/embed/Ej25zrnaTXk"   target="trainer" onclick="changedisplay()">
+                <img src="img\곡성.jpg" class="media" alt=""  id="media4"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>곡성</h1>
+                        <br />개봉일 : 2016년 5월 11일<br />
+                        <br />국가 : 한국<br />
+                        <br />등급 : 15세 관람가<br />
+                        <br />감독 : 나홍진<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="work">
+            <a href="https://www.youtube.com/embed/qbm36Hm3nQs"  target="trainer" onclick="changedisplay()">
+                <img src="img/섬.jpg" class="media" alt="" id="media5"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>섬, 사라진사람들</h1>
+                        <br />개봉일 : 2016년 3월 3일<br />
+                        <br />국가 : 한국<br />
+                        <br />등급 : 15세 관람가<br />
+                        <br />감독 : 이지승<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="work">
+            <a href="https://www.youtube.com/embed/KR4nEO3eZvA"  target="trainer" onclick="changedisplay()">
+                <img src="img/아가씨.jpg" class="media" alt="" id="media6" />
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>아가씨</h1>
+                        <br />개봉일 : 2016년 6월 1일<br />
+                        <br />국가 : 한국<br />
+                        <br />등급 : 청소년 관람불가<br />
+                        <br />감독 : 박찬욱<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+       
+    </section><!-- end main -->
+
+</body>
+</html>

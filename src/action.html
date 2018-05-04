@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Movie World</title>
+    <meta charset="utf-8">
+    <meta name="author" content="pixelhint.com">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script>
+        function changedisplay() {
+            document.getElementById("trainer").style.height = "500px";
+        }
+        function shuttrainer() {
+            document.getElementById("trainer").style.height = "0px";
+        }
+        window.onload = function () {
+            document.getElementById("media1").style.height = "500px";
+            document.getElementById("media2").style.height = "500px";
+            document.getElementById("media3").style.height = "500px";
+            document.getElementById("media4").style.height = "500px";
+            document.getElementById("media5").style.height = "500px";
+            document.getElementById("media6").style.height = "500px";
+        }
+    </script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html" style="text-decoration:none; font-size:35px;">Movie World</a>
+        </div><!-- end logo -->
+
+        <div id="menu_icon"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="selected" style="color:red; font-weight:bold">Home</a></li>
+               
+                <li><a href="action.html" style="font-weight:bold; color:blue">Action</a></li>
+                <li><a href="SF.html" style="font-weight:bold">SF</a></li>
+                <li><a href="Fantasy.html" style="font-weight:bold">Fantasy</a></li>
+                <li><a href="Horror.html" style="font-weight:bold">Horror</a></li>
+                <li><a href="Thriller.html" style="font-weight:bold">Thriller</a></li>
+                <li><a href="Animation.html" style="font-weight:bold">Animation</a></li>
+               
+            </ul>
+        
+        <br />
+        </nav><!-- end navigation menu -->
+
+        <div class="footer clearfix">
+
+
+            <div class="rights">
+                <a href="#" onclick="shuttrainer()">예고편 닫기</a>
+                <br />
+                <br />
+                <p>포스터를 클릭하면 예고편이 재생됩니다.</p>
+            <br />
+            <br />
+            <br />
+            <br />
+                <p>Copyright © 2016 KHJ</p>
+            </div><!-- end rights -->
+        </div><!-- end footer -->
+    </header><!-- end header -->
+
+    <section class="main clearfix">
+
+        
+        <div class="work">
+            <a href="https://www.youtube.com/embed/EXeTwQWrcwY" target="trainer" onclick="changedisplay()">
+                <img src="img\다크나이트.jpg" class="media" alt="" id="media1"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>다크 나이트</h1>
+                        <br />개봉일 : 2008년 8월 6일<br />
+                        <br />국가 : 미국<br />
+                        <br />등급 :  15세 관람가<br />
+                        <br />감독 :  크리스토퍼 놀란<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="work">
+            <a href="https://www.youtube.com/embed/_MTXJMeT1vY" target="trainer" onclick="changedisplay()">
+                <img src="img/캡틴아메리카.jpg" class="media" alt="" id="media2"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>캡틴 아메리카 : 시빌워</h1>
+                        <br />개봉일 : 2016년 3월 24일<br />
+                        <br />국가 : 미국<br />
+                        <br />등급 :  12세 관람가<br />
+                        <br />감독 :  잭 스나이더<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="work">
+            <a href="https://www.youtube.com/embed/YBa6wAjRaN4" target="trainer" onclick="changedisplay()">
+                <img src="img/배트맨슈퍼맨.jpg" class="media" alt=""  id="media3"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1 id="batman">배트맨 v 슈퍼맨 : 저스티스의 시작</h1>
+                        <br />개봉일 : 2016년 3월 24일<br />
+                        <br />국가 : 미국<br />
+                        <br />등급 :  12세 관람가<br />
+                        <br />감독 :  잭 스나이더<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="trainer">
+            <iframe src="" name="trainer" id="trainer"></iframe>
+        </div>
+        <div class="work">
+            <a href="https://www.youtube.com/embed/yTuqdGbE81c"  target="trainer" onclick="changedisplay()">
+                <img src="img\맨오브스틸.jpg" class="media" alt=""  id="media4"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>맨오브스틸</h1>
+                        <br />개봉일 : 2013년 6월 13일<br />
+                        <br />국가 : 미국, 캐나다<br />
+                        <br />등급 :  12세 관람가<br />
+                        <br />감독 :  잭 스나이더<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="work">
+            <a href="https://www.youtube.com/embed/GMkY7LawUcg"  target="trainer" onclick="changedisplay()">
+                <img src="img/테이큰3.jpg" class="media" alt="" id="media5"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>테이큰3</h1>
+                        <br />개봉일 : 2015년 1월 1일<br />
+                        <br />국가 : 프랑스<br />
+                        <br />등급 :  15세 관람가<br />
+                        <br />감독 :  올리비에 메가턴<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="work">
+            <a href="https://www.youtube.com/embed/y1bFSJYsrSU"  target="trainer" onclick="changedisplay()">
+                <img src="img/엑스맨.jpg" class="media" alt="" id="media6" />
+                <div class="caption">
+                    <div class="work_title">
+                        <h1 id="batman">엑스맨 : 아포칼립스</h1>
+                        <br />개봉일 : 2016년 5월 25일<br />
+                        <br />국가 : 미국<br />
+                        <br />등급 :  12세 관람가<br />
+                        <br />감독 :  브라이언 싱어<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+       
+    </section><!-- end main -->
+
+</body>
+</html>

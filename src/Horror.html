@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Movie World</title>
+    <meta charset="utf-8">
+    <meta name="author" content="pixelhint.com">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script>
+        function changedisplay() {
+            document.getElementById("trainer").style.height = "500px";
+        }
+        function shuttrainer() {
+            document.getElementById("trainer").style.height = "0px";
+        }
+        window.onload = function () {
+            document.getElementById("media1").style.height = "500px";
+            document.getElementById("media2").style.height = "500px";
+            document.getElementById("media3").style.height = "500px";
+            document.getElementById("media4").style.height = "500px";
+            document.getElementById("media5").style.height = "500px";
+            document.getElementById("media6").style.height = "500px";
+        }
+    </script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html" style="text-decoration:none; font-size:35px;">Movie World</a>
+        </div><!-- end logo -->
+
+        <div id="menu_icon"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="selected" style="color:red; font-weight:bold">Home</a></li>
+               
+                <li><a href="action.html" style="font-weight:bold;">Action</a></li>
+                <li><a href="SF.html" style="font-weight:bold">SF</a></li>
+                <li><a href="Fantasy.html" style="font-weight:bold">Fantasy</a></li>
+                <li><a href="Horror.html" style="font-weight:bold;  color:blue">Horror</a></li>
+                <li><a href="Thriller.html" style="font-weight:bold">Thriller</a></li>
+                <li><a href="Animation.html" style="font-weight:bold">Animation</a></li>
+               
+            </ul>
+        
+        <br />
+        </nav><!-- end navigation menu -->
+
+        <div class="footer clearfix">
+
+
+            <div class="rights">
+                <a href="#" onclick="shuttrainer()">예고편 닫기</a>
+                <br />
+                <br />
+                <p>포스터를 클릭하면 예고편이 재생됩니다.</p>
+            <br />
+            <br />
+            <br />
+            <br />
+                <p>Copyright © 2016 KHJ</p>
+            </div><!-- end rights -->
+        </div><!-- end footer -->
+    </header><!-- end header -->
+
+    <section class="main clearfix">
+
+        
+        <div class="work">
+            <a href="https://www.youtube.com/embed/m0ksfcMjDJE" target="trainer" onclick="changedisplay()">
+                <img src="img\인시디어스.jpg" class="media" alt="" id="media1"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>인시디어스3</h1>
+                        <br />개봉일 : 2015년 7월 9일<br />
+                        <br />국가 : 미국<br />
+                        <br />등급 :  15세 관람가<br />
+                        <br />감독 :  리 워넬<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="work">
+            <a href="https://www.youtube.com/embed/Ok-r0xgNeBM" target="trainer" onclick="changedisplay()">
+                <img src="img/컨저링2.jpg" class="media" alt="" id="media2"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>컨저링2</h1>
+                        <br />개봉일 : 2016년 6월 9일<br />
+                        <br />국가 : 미국<br />
+                        <br />등급 :  15세 관람가<br />
+                        <br />감독 :  제임스 완<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="work">
+            <a href="https://www.youtube.com/embed/zR2cc1BwdmI" target="trainer" onclick="changedisplay()">
+                <img src="img/파라노말 액티비티.jpg" class="media" alt=""  id="media3"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>파라노말 액티비티</h1>
+                        <br />개봉일 : 2016년 4월 20일<br />
+                        <br />국가 : 미국<br />
+                        <br />등급 :  15세 관람가<br />
+                        <br />감독 :  그레고리 플로킨<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="trainer">
+            <iframe src="" name="trainer" id="trainer"></iframe>
+        </div>
+        <div class="work">
+            <a href="https://www.youtube.com/embed/byQk--cJ2CQ"  target="trainer" onclick="changedisplay()">
+                <img src="img\포레스트.jpg" class="media" alt=""  id="media4"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>포레스트 : 죽음의 숲</h1>
+                        <br />개봉일 : 2016년 3월 30일<br />
+                        <br />국가 : 미국<br />
+                        <br />등급 :  12세 관람가<br />
+                        <br />감독 :  제이슨 자다<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="work">
+            <a href="https://www.youtube.com/embed/c-qoksCjGQc"   target="trainer" onclick="changedisplay()">
+                <img src="img/애나벨.jpg" class="media" alt="" id="media5"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>테이큰3</h1>
+                        <br />개봉일 : 2014년 10월 2일<br />
+                        <br />국가 : 미국<br />
+                        <br />등급 :  15세 관람가<br />
+                        <br />감독 :  존 R. 레오네티<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="work">
+            <a href="https://www.youtube.com/embed/BKZgUllP-1Q"  target="trainer" onclick="changedisplay()">
+                <img src="img/인보카머스.jpg" class="media" alt="" id="media6" />
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>인보카머스</h1>
+                        <br />개봉일 : 2014년 8월 21일<br />
+                        <br />국가 : 미국<br />
+                        <br />등급 :  청소년 관람불가<br />
+                        <br />감독 :  스콧 데릭슨<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+       
+    </section><!-- end main -->
+
+</body>
+</html>

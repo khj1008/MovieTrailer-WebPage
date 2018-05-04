@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Movie World</title>
+    <meta charset="utf-8">
+    <meta name="author" content="pixelhint.com">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script>
+        function changedisplay() {
+            document.getElementById("trainer").style.height = "500px";
+        }
+        function shuttrainer() {
+            document.getElementById("trainer").style.height = "0px";
+        }
+        window.onload = function () {
+            document.getElementById("media1").style.height = "500px";
+            document.getElementById("media2").style.height = "500px";
+            document.getElementById("media3").style.height = "500px";
+            document.getElementById("media4").style.height = "500px";
+            document.getElementById("media5").style.height = "500px";
+            document.getElementById("media6").style.height = "500px";
+        }
+    </script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html" style="text-decoration:none; font-size:35px;">Movie World</a>
+        </div><!-- end logo -->
+
+        <div id="menu_icon"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="selected" style="color:red; font-weight:bold">Home</a></li>
+                
+                <li><a href="action.html" style="font-weight:bold;">Action</a></li>
+                <li><a href="SF.html" style="font-weight:bold;  color:blue">SF</a></li>
+                <li><a href="Fantasy.html" style="font-weight:bold">Fantasy</a></li>
+                <li><a href="Horror.html" style="font-weight:bold">Horror</a></li>
+                <li><a href="Thriller.html" style="font-weight:bold">Thriller</a></li>
+                <li><a href="Animation.html" style="font-weight:bold">Animation</a></li>
+               
+            </ul>
+        
+        <br />
+        </nav><!-- end navigation menu -->
+
+        <div class="footer clearfix">
+
+
+            <div class="rights">
+                <a href="#" onclick="shuttrainer()">예고편 닫기</a>
+                <br />
+                <br />
+                <p>포스터를 클릭하면 예고편이 재생됩니다.</p>
+            <br />
+            <br />
+            <br />
+            <br />
+                <p>Copyright © 2016 KHJ</p>
+            </div><!-- end rights -->
+        </div><!-- end footer -->
+    </header><!-- end header -->
+
+    <section class="main clearfix">
+
+        
+        <div class="work">
+            <a href="https://www.youtube.com/embed/oW-zuMvbzrc" target="trainer" onclick="changedisplay()">
+                <img src="img\인터스텔라.jpg" class="media" alt="" id="media1"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>인터스텔라</h1>
+                        <br />개봉일 : 2014년 11월 6일<br />
+                        <br />국가 : 미국<br />
+                        <br />등급 :  12세 관람가<br />
+                        <br />감독 :  크리스토퍼 놀란<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="work">
+            <a href="https://www.youtube.com/embed/yImDY9hdXms"  target="trainer" onclick="changedisplay()">
+                <img src="img/터미네이터.jpg" class="media" alt="" id="media2"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>터미네이터 제니시스</h1>
+                        <br />개봉일 : 2015년 7월 2일<br />
+                        <br />국가 : 미국<br />
+                        <br />등급 :  15세 관람가<br />
+                        <br />감독 :  앨런 테일러<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="work">
+            <a href="https://www.youtube.com/embed/UUNBZYBKxW0" target="trainer" onclick="changedisplay()">
+                <img src="img/픽셀.jpg" class="media" alt=""  id="media3"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>픽셀</h1>
+                        <br />개봉일 : 2015년 7월 16일<br />
+                        <br />국가 : 미국<br />
+                        <br />등급 :  12세 관람가<br />
+                        <br />감독 :  크리스 콜럼버스<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="trainer">
+            <iframe src="" name="trainer" id="trainer"></iframe>
+        </div>
+        <div class="work">
+            <a href="https://www.youtube.com/embed/hstBN0Qkqhc"  target="trainer" onclick="changedisplay()">
+                <img src="img\인셉션.jpg" class="media" alt=""  id="media4"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>인셉션</h1>
+                        <br />개봉일 : 2010년 7월 21일<br />
+                        <br />국가 : 미국, 영국<br />
+                        <br />등급 :  12세 관람가<br />
+                        <br />감독 :  크리스토퍼 놀란<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="work">
+            <a href="https://www.youtube.com/embed/fez_ZtMCH4s"  target="trainer" onclick="changedisplay()">
+                <img src="img/그래비티.jpg" class="media" alt="" id="media5"/>
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>그래비티</h1>
+                        <br />개봉일 : 2013년 10월 17일<br />
+                        <br />국가 : 미국, 영국<br />
+                        <br />등급 :  12세 관람가<br />
+                        <br />감독 :  알폰소 쿠아론<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="work">
+            <a href="https://www.youtube.com/embed/O87okl1Cycc"  target="trainer" onclick="changedisplay()">
+                <img src="img/마션.jpg" class="media" alt="" id="media6" />
+                <div class="caption">
+                    <div class="work_title">
+                        <h1>마션</h1>
+                        <br />개봉일 : 2015년 10월 8일<br />
+                        <br />국가 : 미국, 영국<br />
+                        <br />등급 :  12세 관람가<br />
+                        <br />감독 :  리들리 스콧<br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+       
+    </section><!-- end main -->
+
+</body>
+</html>
